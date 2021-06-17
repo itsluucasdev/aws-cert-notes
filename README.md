@@ -95,3 +95,10 @@ IAM Password Policiers
  Rotate your keys
  Use IAM 
  Analsyse patterns
+ -----------------------------------------------------
+ Amazon EC2
+   EC2 = Elastic Cloud Computing
+      Renting virtual machine - EC2
+      Storing Data on virtual drivers - EBS
+      Distribuiting load across machine - ELB
+      Scaling the services using an auto-scaling group - ASG
