@@ -102,3 +102,33 @@ IAM Password Policiers
       Storing Data on virtual drivers - EBS
       Distribuiting load across machine - ELB
       Scaling the services using an auto-scaling group - ASG
+ 
+ EC2 Instance Types - Compute Optimized - C Series
+ Batch Processing workloads
+ Media transcoding
+ High performance web servers
+ High performance computing (HPC)
+ scientific modeling & machine learning
+ dedicated gaming servers
+ 
+ EC2 Instance Types - Memory Optimized - R Series
+ High performance relational non-relation databases
+ 
+ EC2 Instance Types - Storage Optimized - I/G/H Series
+ 
+ Security Groups
+ 
+ Security Groups only contain Allows Rules
+   Regulate:
+      Access to ports
+      Authorised IP Ranges
+      Conftrol of inbound/outbound network
+      
+22 = SSH
+21 = FTP
+22 = SFTP
+80 = HTTP
+443 = HHTPS
+3389 = RDP
+ 
+ 
