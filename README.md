@@ -131,4 +131,44 @@ IAM Password Policiers
 443 = HHTPS
 3389 = RDP
  
- 
+EC2 Instances Purschasing Options
+
+   On-Demand Instances: short workload, predictable pricing
+   Pay for what you use
+      Linux = billing per second after the first minute
+      All others OS billing per hour
+   Has the highest cost but no upfront payment
+   No long-term commitment
+   Recommend for short-term and un-interrupted workloads, where you can't predict  how the application will behave
+   
+Reserved: (Minimum 1 year) 0 Up to 75% discount compared to On-demand
+   Reservetion period: 1 year = + discount | 3 years = +++ discount
+   Purchase option: no upfront, partial upfront, all upfront
+   Reserve a specif insface type
+   Recommended for steady-stage usage applications (think database)
+   Reserved Instances: long workloads
+   
+   Convertible Reserved Instances: log workloads with flexible instances
+      Up to 54% discount - can change ec2 instance type
+      
+   Scheduled Reserved Instances: example - every Thursday between 3 and 6pm
+      launch within time window you reserve
+      when you require a fraction of day / week / month
+      still commitment over 1 to 3 years
+   
+   Spot Instances: short workloads, cheap, can lose instances (less rebliable)
+      Highest discount on AWS up to 90%
+      Instances that you can "lose" at any point if your max price is less than the current spot price
+      The most cost-efficient instance in AWS
+      Useful for workloads that are resilient to failure
+      batch jobs
+      data analysis
+      image processing
+      any distributed workloads
+      NOT SUITABLE FOR CRITICAL JOBS OR DATABASE
+      
+   Dedicated Hosts: book an entire physical server, control instance placement
+      FULLY DEDICATED ENTIRE SERVER DATA CENTER
+      Compliance requirements
+      user your existing server-bound software licenses
+      More expensive
