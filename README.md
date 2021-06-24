@@ -172,3 +172,56 @@ Reserved: (Minimum 1 year) 0 Up to 75% discount compared to On-demand
       Compliance requirements
       user your existing server-bound software licenses
       More expensive
+
+EC2 IMAGE BUILDER
+   => Automate the creation, maintain, validate and test EC2 AMIs
+
+EC2 INSTANCE STORE
+   BETTER I/O PERFORMANCE
+   EC2 INSTANCE STORE LOSE THEIR STORAGE IF STOPPED
+   GOOD FOR BUFFER / CACHE / TEMPORARY CONTENT
+   RISK OF DATA LOSS IF HARDWARE FAILS
+   BACKUP AND REPLICATION ARE YOUR RESPONSABILITY
+
+EBS VOLUMES
+   NETWORK DRIVER ATTACHED TO ONE EC2
+
+AMI - CREATE READY-TO-USE EC2 WITH CUSTOMIZATIONS
+
+
+EFS - ELASTIC FILE SYSTEM
+   Managed NFS (netowrk file system) can be mounted on 100s of EC2
+   Highly available, scalable, expensive, pay-per-use, no capacity planning
+
+AMAZON FSx for Windows File Server
+   SMB Protocol
+
+AMAZON FSx for Lustre
+   HPC - Luste is Linux and Cluster
+   Machine Learning, analystics, financial modeling
+
+==================================================
+
+ELB & ASG - ELASTIC LOAD BALANCING & AUTO SCALING GROUPS
+
+   Scalability - Application/System can handle greater loads by adapting
+      Vertical Scalability
+      Horizontal Scalability = elasticity
+
+   VERTICAL SCALABILITY - increase the size of instance
+      non-distributed system, such as database
+      limit how much you can vertically scale
+   
+   HORIZONTAL SCALABILITY - increase the number os instances
+      
+   HIGH AVAILABILITY - means running your application in at least 2 AZ
+      load balance in multi az
+
+   ELASTIC LOAD BALANCING
+      server that forward internet traffic to multiple ec2 instances
+      Application Load Balancer (HTTP/HTTPs only) - Layer 7
+      Network Load Balancer (ultra high performance, allows for TCP) - Layer 4
+      Classic Load Balancer (slowly retiring)
+   
+   HIGH AVAILABILITY
+      application thriving even in case of a disaster
